@@ -1,0 +1,118 @@
+.invoices__form-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0;
+}
+.invoices__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.invoices__form-input{
+    padding: 5px;
+    border: solid 1px;
+    outline: none;
+    border-radius: 5px;
+}
+.invoices__form-input:focus{
+    border-color: var(--secondary-color);
+}
+.invoices__form-subtitle{
+    font-weight: 600;
+}
+.invoices__form-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.invoices__fom-items{
+    border: solid 1px var(--secondary-color);
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 0 10px 0 var(--secondary-color);
+    cursor: pointer;
+}
+.invoices__form-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    align-items: center;
+}
+.invoices__form-form-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+.invoices__form-form-text{
+    font-weight: 600;
+}
+.invoices__form-form-input{
+    padding: 5px;
+    font-size: 1rem;
+    border: solid 1px;
+    border-radius: 5px;
+    outline: none;
+}
+.invoices__form-form-input:focus{
+    border-color: var(--secondary-color);
+}
+.invoices__form-form-btn{
+    width: 30%;
+    padding: 5px 10px;
+    border: none;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.invoices__form-list-outletItems{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.invoices__form-outletItems-text{
+    font-weight: 600;
+}
+.invoices__form-outletItems-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width:720px){
+    .invoices__form{
+        width: 80%;
+        gap: 20px;
+    }
+    .invoices__form-input{
+        width: 50%;
+        font-size: 1rem;
+    }
+    .invoices__form-list{
+        gap: 20px;
+    }
+    .invoices__form-form{
+        width: 50%;
+        padding: 20px;
+        gap: 30px;
+    }
+    .invoices__form-form-container{
+        width: 60%;
+    }
+    .invoices__form-form-btn{
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+}

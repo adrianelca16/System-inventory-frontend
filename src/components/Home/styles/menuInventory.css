@@ -1,0 +1,32 @@
+.menu__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+
+}
+.menu__btn{
+    padding: 10px;
+    width: 40%;
+    height: 40%;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+@media screen and (min-width:720px){
+    .menu__container{
+        gap: 50px;
+    }
+    .menu__btn{
+        height: 35%;
+        width: 20%;
+        font-size: 2rem;
+        box-shadow: 0 0 15px 0 var(--secondary-color);
+    }
+}

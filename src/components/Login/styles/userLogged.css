@@ -1,0 +1,26 @@
+.userlogged-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    align-items: center;
+}
+.userlogged-text{
+    font-size: 1.1rem;
+    font-family: cursive;
+}
+.userlogged-btn{
+    background-color: var(--color-footer);
+    border: none;
+    color: var(--secondary-color);
+    font-size: 1rem;
+    cursor: pointer;
+}
+@media screen and (min-width:720px) {
+    .userlogged-text{
+        font-size: 2rem;
+    }
+    .userlogged-btn{
+        font-size: 1.5rem;
+    }
+}

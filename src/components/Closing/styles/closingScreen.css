@@ -1,0 +1,112 @@
+.closing__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px 0;
+    background-color: var(--color-footer);
+}
+.closing__subcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px 0;
+}
+
+.closing__btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.closing__card {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    border: solid 1px var(--secondary-color);
+    border-radius: 5px;
+    box-shadow: 0 0 15px 0 var(--secondary-color);
+    padding: 20px 10px;
+}
+
+.closing__card-title {
+    color: var(--secondary-color);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.closing__card-text {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.closing__card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.closing__card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.closing__card-invoices {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.closing__card-invoice-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.closing__card-invoice-text {
+    font-size: 0.92rem;
+}
+
+.closing__inventory-card {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.closing__inventory-card-text {
+    font-size: 0.90rem;
+}
+
+@media screen and (min-width:720px) {
+    .closing__btn {
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
+    .closing__btn:hover {
+        filter: brightness(50%);
+    }
+    .closing__card {
+        width: max-content;
+        padding: 40px;
+    }
+    .closing__subcontainer{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+        padding: 40px;
+    }
+}
